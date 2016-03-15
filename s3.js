@@ -131,8 +131,8 @@ function binb2b64(binarray)
 //---------------------------End Of Sha1--------------------------------------------------  //
 const ACL_HEADER = "x-amz-acl:public-read";
 
-let awsKeyId = ''
-let awsKeySecrect = ''
+let awsKeyId = '';
+let awsKeySecrect = '';
 
 function getRandomKeyName() {
   //FIXME: maybe conflict
